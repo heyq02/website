@@ -5,6 +5,12 @@ fn get_news_items() -> Array[NewsItem] {
   lang(
     en=[
     {
+      title: "Building Agents, MoonBit is all you need",
+      date: "2026-10-10",
+      url: "https://www.moonbitlang.com/blog/building-agents-moonbit",
+      img: "/img/blogs/2026-10-10-building-agents-moonbit/cover.png",
+    },
+    {
       title: "SeekMoon: From IDE to ADE",
       date: "2026-09-01",
       url: "https://www.moonbitlang.com/blog/seekmoon-from-ide-to-ade",
@@ -22,14 +28,14 @@ fn get_news_items() -> Array[NewsItem] {
       url: "https://www.moonbitlang.com/blog/local-inference-deepseek-v4-flash",
       img: "/img/blogs/2026-06-24-local-inference-deepseek-v4-flash/cover.png",
     },
-    {
-      title: "One Language, Multiple Targets: A Full-Stack Workflow with MoonBit",
-      date: "2026-05-12",
-      url: "https://www.moonbitlang.com/blog/moonbit-multiple-targets",
-      img: "/img/blogs/2026-05-12-moonbit-multiple-targets/cover.png",
-    },
     ],
     zh=[
+    {
+      title: "构建智能体，有 MoonBit 就够了",
+      date: "2026-10-10",
+      url: "https://www.moonbitlang.cn/blog/building-agents-moonbit",
+      img: "/img/blogs/zh/2026-10-10-building-agents-moonbit/cover.png",
+    },
     {
       title: "MoonBit 0.9 发布：AI 自动生成可证明的代码",
       date: "2026-04-08",
@@ -47,12 +53,6 @@ fn get_news_items() -> Array[NewsItem] {
       date: "2025-12-03",
       url: "https://www.moonbitlang.cn/blog/moonbit-async-code-agent",
       img: "/img/blogs/zh/2025-12-03-moonbit-async-code-agent/cover.png",
-    },
-    {
-      title: "MoonBit 推出 LLVM Debugger，核心用户数破十万",
-      date: "2025-10-31",
-      url: "https://www.moonbitlang.cn/blog/llvm-debug",
-      img: "/img/blogs/zh/2025-10-31-llvm-debug/cover.png",
     },
     ],
   )
